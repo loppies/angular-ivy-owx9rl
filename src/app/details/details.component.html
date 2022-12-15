@@ -1,3 +1,10 @@
-<p>
-details works!
-</p>
+<h2 [innerText]="name" ngDefaultControl></h2>
+wiek: <label [innerText]="age"></label>
+<h3>Adres:</h3>
+<div>
+  Miasto: <label [innerText]="city"></label><br />
+  Ulica: <label [innerText]="street"></label><br />
+  Kod pocztowy: <label [innerText]="zipCode"></label>
+</div>
+<br />
+<a href="/">Powrót</a>
